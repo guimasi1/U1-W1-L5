@@ -1,6 +1,6 @@
 /* GENERAL */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 .container {
   color: #393d41;
@@ -54,25 +54,37 @@ button {
   background-image: url("S1-L5/Esercizio/images/banner.jpg");
   padding: 3em 4em;
   background-size: cover;
-  background-position: 20% 100%;
+  background-position: 40% 80%;
   text-align: center;
 }
 .corsoweb h1 {
-  font-size: 2em;
-  margin-bottom: 0.3em;
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.1;
 }
 .corsoweb p {
   margin-bottom: 2em;
+  font-size: 1.2em;
 }
 
 /* main - SECONDA SEZIONE */
 
 .job {
   text-align: center;
+  font-size: 1.2em;
 }
 
 .job h3:first-child {
   padding-top: 3em;
+}
+
+.text-job {
+  text-align: center;
+  display: inline-block;
+}
+
+#text-job-h3 {
+  padding-top: 1em;
 }
 
 .job h3 {
@@ -81,7 +93,7 @@ button {
 }
 
 .job p:last-child {
-  padding-bottom: 4em;
+  padding-bottom: 1.5em;
 }
 
 .job p {
@@ -93,8 +105,6 @@ button {
 .job img {
   width: 70%;
   border-radius: 50%;
-  padding-top: 1.5em;
-  padding-bottom: 1.7em;
   max-width: 426px;
 }
 
@@ -146,6 +156,7 @@ button {
   border-color: #dee1e3;
   box-sizing: border-box;
   margin-bottom: 3em;
+  font-size: ;
 }
 
 .divisions:last-child {
@@ -176,9 +187,9 @@ footer {
 
 #footer-h1 {
   color: white;
-  font-size: 1.7em;
+  font-size: 2.2em;
   font-weight: 700;
-  padding-bottom: 1em;
+  padding-bottom: 0.8em;
   padding-top: 1.4em;
 }
 
@@ -189,6 +200,7 @@ footer {
 footer p:last-child {
   padding-top: 1em;
   padding-bottom: 4.5em;
+  font-size: 0.9em;
 }
 
 hr {
