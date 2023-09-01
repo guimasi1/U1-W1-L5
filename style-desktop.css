@@ -1,0 +1,229 @@
+/* GENERAL */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.container {
+  color: #393d41;
+  line-height: 1.65;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+}
+
+.container h1,
+h3,
+h4 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+body {
+  line-height: 1.65;
+}
+
+/* HEADER */
+
+header {
+  background-color: black;
+  text-align: left;
+}
+
+header img {
+  width: 132px;
+  display: inline-block;
+  padding: 0.7em;
+  padding-left: 2em;
+}
+
+/* MAIN */
+
+/* main- PRIMA SEZIONE */
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: #f04c2f;
+  color: white;
+  border: none;
+  border-radius: 0.4em;
+  padding: 1em 2.4em;
+}
+
+#h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.corsoweb {
+  background-image: url("S1-L5/Esercizio/images/banner.jpg");
+  padding: 9em 4em;
+  background-size: cover;
+  background-position: 70% 2%;
+
+  text-align: center;
+}
+.corsoweb h1 {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
+.corsoweb p {
+  margin-bottom: 2em;
+  display: inline-block;
+  margin-left: 12em;
+  margin-right: 12em;
+  width: 60%;
+}
+
+/* main - SECONDA SEZIONE */
+
+.job {
+  font-size: 1em;
+  padding-bottom: 3em;
+}
+
+.job h3:first-child {
+  padding-top: 3em;
+}
+
+.job h3 {
+  padding-bottom: 0.6em;
+  font-weight: 700;
+}
+
+.job p:last-child {
+  padding-bottom: 4em;
+}
+
+.text-job {
+  display: inline-block;
+  margin-left: 4em;
+  margin-right: 2em;
+  width: 30%;
+}
+
+.job p {
+  padding-bottom: 1em;
+}
+
+.job img {
+  width: 400px;
+  border-radius: 50%;
+  padding-top: 1.5em;
+  padding-bottom: 0.5 em;
+  max-width: 426px;
+  margin-top: 3em;
+}
+.notebook {
+  margin-left: 15em;
+  display: inline-block;
+}
+/* main - TERZA SEZIONE */
+
+.quotation {
+  background-color: #e22d0e;
+  padding: 5em 1em 4.3em;
+  text-align: center;
+  color: white;
+}
+
+.quotation h1 {
+  color: white;
+  font-size: 1.6em;
+  padding-bottom: 0.8em;
+}
+
+.quotation em {
+  font-style: italic;
+}
+
+.quotation h1 + p {
+  padding-bottom: 1.5em;
+  font-size: 1.4em;
+}
+.quotation p {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.quotation h1 + p + p {
+  font-size: larger;
+  padding-bottom: 0em;
+}
+
+.quotation p:last-child {
+  padding-bottom: 1.5em;
+  font-size: 0.9em;
+}
+
+/* MAIN - LAST SECTION */
+
+.last-section {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 4em 2em 1em 2em;
+}
+
+.divisions {
+  border: 1px solid;
+  border-color: #dee1e3;
+  margin-bottom: 4em;
+  margin-right: 1.7em;
+  display: inline-block;
+  width: 300px;
+}
+
+.divisions img {
+  width: 100%;
+  height: 200px;
+}
+
+.divisions h4 {
+  font-weight: 700;
+  font-size: 0.8em;
+  padding-top: 0.8em;
+}
+
+.divisions p {
+  font-size: 0.8em;
+  padding: 0.6em 0.8em 1.4em;
+}
+/* FOOTER */
+
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+  margin-left: 1.7em;
+}
+
+.footer {
+  display: inline-block;
+  margin-left: 40%;
+  width: 50%;
+}
+#footer-h1 {
+  color: white;
+  font-size: 2.4em;
+  font-weight: 700;
+  padding-bottom: 0.6em;
+  padding-top: 1.4em;
+}
+
+.footer-last-p {
+  padding-bottom: 1.3em;
+}
+
+footer p:last-child {
+  padding-top: 2em;
+  padding-bottom: 4.5em;
+  font-size: 0.7em;
+  margin-left: 3em;
+}
+
+hr {
+  margin: 0;
+  width: 42%;
+}
+
+footer a:link {
+  color: #c8e7f0;
+}
